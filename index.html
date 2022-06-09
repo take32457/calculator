@@ -4,9 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
     <h2>電卓<h2>
+    <form class="calculator">
+        <table>
+            <tr>
+                <td colspan="4">
+                    <input type="text" class="screen" id="screen" value="" disabled>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="button" id="left" value="("></td>
+                <td><input type="button" id="right" value=")"></td>
+                <td><input type="button" id="ce" value="CE"></td>
+                <td><input type="button" id="ac" value="AC"></td>
+            </tr>
+            <tr>
+                <td><input type="button" id="7" value="7"></td>
+                <td><input type="button" id="8" value="8"></td>
+                <td><input type="button" id="9" value="9"></td>
+                <td><input type="button" id="divide" value="÷"></td>
+            </tr>
+            <tr>
+                <td><input type="button" id="4" value="4"></td>
+                <td><input type="button" id="5" value="5"></td>
+                <td><input type="button" id="6" value="6"></td>
+                <td><input type="button" id="multi" value="×"></td>
+            </tr>
+            <tr>
+                <td><input type="button" id="1" value="1"></td>
+                <td><input type="button" id="2" value="2"></td>
+                <td><input type="button" id="3" value="3"></td>
+                <td><input type="button" id="plus" value="+"></td>
+            </tr>
+            <tr>
+                <td><input type="button" id="0" value="0"></td>
+                <td><input type="button" id="point" value="."></td>
+                <td><input type="button" id="eq" value="="></td>
+                <td><input type="button" id="minus" value="-"></td>
+            </tr>
+        </table>
+    </form>
+    <script src="main.js"></script>
 </body>
 </html>
