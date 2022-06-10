@@ -3,7 +3,7 @@ let screen = document.getElementById("screen");
 
 
 //イベントハンドラの追加　あくまでイベントハンドラを追加しただけなのでfunctionの部分は置き換える
-
+//練習です
 document.getElementById("0").addEventListener("click",function(){screen.value += 0});
 document.getElementById("1").addEventListener("click",function(){screen.value += 1});
 document.getElementById("2").addEventListener("click",function(){screen.value += 2});
