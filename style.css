@@ -1,34 +1,41 @@
 table {
     /* 電卓の設定 */
+    background-color: #3c3c3c;
     width: 430px;
     height: 600px;
     border: solid 1px gray;
-    border-right: solid 3px gray;
     border-bottom: solid 3px gray;
-    border-radius: 8px;
+    border-radius: 3px;
     text-align: center;
-    padding: 10px;
+    padding: 15px;
 }
 
 input {
     /* ボタンの設定 */
     width: 100px;
     height: 100px;
-    font-size: x-large;
-    border: solid 1px grey;
-    border-radius: 20px;
+    font-size: xx-large;
+    border: solid 0px;
+    border-radius: 3px;
+    color: black;
 }
+input[type="button"]:hover{
+    background-color: #3c3c3c;
 
-input:active{
+}
+input[type="button"]:active{
     /* ボタンを押したときの設定 */
-    background-color: darkslategray;
+    background-color: rgb(83, 83, 83);
+    color: white;
 }
 
 .screen{
     /* スクリーンの設定 */
-    background-color: azure;
-    border: solid 1px gray;
+    background-color: white;
+    border: solid 0px;
     margin: 10px;
+    padding-right: 15px;
     width: 350px;
     text-align: right;
+    border-radius: 5px;
 }
